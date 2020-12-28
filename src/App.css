@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -37,10 +38,13 @@
   }
 }
 
-.homePageText1 {
-  background-image: url(./photos/dexter.png);
+.photo1 {
+  justify-content: center; /* horizontally center */
+  align-items: center;
 }
 
-.photo1 {
-  height: 100%;
+.text1 {
+  position: relative;
+  top: 50vh;
+  font-size: x-large;
 }
