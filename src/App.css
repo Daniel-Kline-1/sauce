@@ -48,3 +48,28 @@
   top: 50vh;
   font-size: x-large;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightblue;
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.vid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 25vh;
+}
